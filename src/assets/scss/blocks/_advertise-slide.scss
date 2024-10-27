@@ -1,0 +1,18 @@
+.advertise-slide {
+  &__page {
+    &-underline {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0px;
+        top: 33px;
+        display: block;
+        width: 250px;
+        height: 18px;
+        border-top: 4px solid #2189ff;
+        border-radius: 25% / 100% 100% 0 0;
+      }
+    }
+  }
+}

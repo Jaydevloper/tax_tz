@@ -1,0 +1,13 @@
+@import "../_variables";
+.site-header {
+  &__select {
+    div {
+      border-radius: 16px !important;
+      border-color: #eaf4ff !important;
+      color: $blue !important;
+    }
+    span {
+      color: $blue !important;
+    }
+  }
+}
