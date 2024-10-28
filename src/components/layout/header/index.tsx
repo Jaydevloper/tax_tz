@@ -6,8 +6,8 @@ import logo from "assets/imgs/site-logo.png";
 import { Link } from "react-router-dom";
 const HeaderMenu = () => {
   return (
-    <Header className="flex items-center  bg-white container ">
-      <div className=" w-full flex items-center justify-between">
+    <Header className="flex items-center  bg-white container site-header">
+      <div className=" w-full flex items-center justify-between site-header__menu">
         <section className="flex items-center gap-7">
           <Link className="h-[50px]" to={"/"}>
             <img
@@ -25,7 +25,7 @@ const HeaderMenu = () => {
             <BookIcon />
           </Link>
         </section>
-        <section className="flex items-center">
+        <section className="flex items-center site-header__right">
           <Link className="text-base mr-10" to={"/"}>
             Bizning ustozlarimiz
           </Link>

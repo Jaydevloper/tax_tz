@@ -1,11 +1,11 @@
 import StartIcon from "assets/icons/start-icon";
-import ButtonBlue from "components/button";
 import adImg from "assets/imgs/ad-img.png";
+import ButtonBlue from "components/button";
 const AdvertiseSlider = () => {
   return (
     <div className="relative bg-[#EAF4FF] rounded-[44px] container !pt-14 !pl-14 !pb-16 ">
       <div className="flex items-center justify-between">
-        <div>
+        <div className="z-10">
           <h2 className="text-[#0B2441] text-base flex items-center gap-[10px]">
             Zamonaviy IT o'quv markazi
             <StartIcon />

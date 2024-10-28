@@ -1,5 +1,5 @@
 import AboutUs from "./components/about-us";
-import AdvertiseSlider from "./components/adverstise-slider";
+import CarouselAd from "./components/carousel-ad";
 import Forma from "./components/forma";
 import LotofQuestion from "./components/lot-of-question";
 import OurCourses from "./components/our-courses";
@@ -8,7 +8,7 @@ import OurTeachers from "./components/our-teachers";
 const Home = () => {
   return (
     <>
-      <AdvertiseSlider />
+      <CarouselAd />
       <OurCourses />
       <OurTeachers />
       <AboutUs />

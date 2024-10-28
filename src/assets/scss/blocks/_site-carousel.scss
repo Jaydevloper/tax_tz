@@ -1,0 +1,22 @@
+.site-carousel {
+  ul {
+    bottom: -18px !important;
+    right: calc(0% - 53rem) !important;
+  }
+  ul li button {
+    width: 32px !important;
+    background: #111213 !important;
+  }
+  .slick-active {
+    &:first-child {
+      margin-right: 140px;
+    }
+    &:last-child {
+      margin-left: 40px;
+    }
+    button {
+      width: 160px !important;
+      background: #2189ff !important;
+    }
+  }
+}

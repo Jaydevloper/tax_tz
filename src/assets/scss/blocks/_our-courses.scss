@@ -1,0 +1,10 @@
+@import "../_mixin";
+.our-courses {
+  @include desktop-first(650px) {
+    &__wrapper {
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+  }
+}

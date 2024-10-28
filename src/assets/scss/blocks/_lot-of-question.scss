@@ -1,0 +1,8 @@
+@import "../mixin";
+.lotof-question {
+  @include desktop-first(530px) {
+    &__title {
+      font-size: 18px;
+    }
+  }
+}

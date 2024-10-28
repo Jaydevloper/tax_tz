@@ -1,3 +1,4 @@
+@import "../mixin";
 .advertise-slide {
   &__page {
     &-underline {
@@ -9,9 +10,19 @@
         top: 33px;
         display: block;
         width: 250px;
-        height: 18px;
-        border-top: 4px solid #2189ff;
-        border-radius: 25% / 100% 100% 0 0;
+        height: 14px;
+        border-top: 4px solid #0955a1;
+        border-radius: 40% / 100% 100% 0 0;
+      }
+    }
+  }
+  @include desktop-first(500px) {
+    &__page {
+      font-size: 24px;
+      &-underline {
+        &::after {
+          display: none;
+        }
       }
     }
   }

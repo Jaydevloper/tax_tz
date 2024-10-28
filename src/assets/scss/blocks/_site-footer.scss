@@ -1,0 +1,10 @@
+@import "../mixin";
+.site-footer {
+  @include desktop-first(650px) {
+    &__wrapper-top {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+    }
+  }
+}

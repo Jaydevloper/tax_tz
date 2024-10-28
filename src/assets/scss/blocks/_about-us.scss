@@ -1,0 +1,10 @@
+@import "../mixin";
+.about-us {
+  @include desktop-first(950px) {
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+    }
+  }
+}

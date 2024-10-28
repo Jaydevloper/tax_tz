@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 import logo from "assets/imgs/site-logo.png";
 const Footer = () => {
   return (
-    <footer className="bg-[#EAF4FF] pt-8 pb-[52px]">
+    <footer className="bg-[#EAF4FF] pt-8 pb-[52px] site-footer">
       <div className="container">
-        <div className="flex items-center gap-[281px]">
+        <div className="flex items-center gap-[281px] site-footer__wrapper-top">
           <section>
             <Link to={"/"}>
               <img src={logo} alt="logo" />
             </Link>
           </section>
-          <section className="flex items-center justify-between gap-16">
+          <section className="flex items-center justify-between gap-16 flex-wrap">
             <div>
               <h3 className="text-[#91a1b3] text-[12px]">Manzil</h3>
               <p className="max-w-[238px] w-full  text-center mt-3">
@@ -37,12 +37,12 @@ const Footer = () => {
             </div>
           </section>
         </div>
-        <div className="flex items-center justify-between mt-7 border-b-[1px] border-solid border-[#18181826] pb-[36px]">
+        <div className="flex items-center justify-between mt-7 border-b-[1px] border-solid border-[#18181826] pb-[36px] flex-wrap">
           <p className="max-w-[224px] w-full text-[12px] text-[#0B2441] mt-7">
             Biz sizga mahsulot sotish uchun bu yerda emasmiz, biz tajribamiz
             orqali qiymat sotamiz.
           </p>
-          <div className="flex items-center gap-6 self-end">
+          <div className="flex items-center gap-6 self-end flex-wrap">
             <Link to={"/"}>Facebook</Link>
             <Link to={"/"}>Twitter</Link>
             <Link to={"/"}>Telegram</Link>

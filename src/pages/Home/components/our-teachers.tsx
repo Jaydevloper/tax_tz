@@ -13,9 +13,9 @@ import MantajIcon from "assets/icons/montaj-icon";
 
 const OurTeachers = () => {
   return (
-    <div className="container">
+    <div className="container our-teachers">
       <h2 className="font-bold text-[28px]">Bizning ustozlarimiz</h2>
-      <div className="mt-8 grid grid-cols-4 gap-11">
+      <div className="mt-8 grid grid-cols-4 gap-11 our-teachers__wrapper">
         <div className="flex flex-col items-center">
           <img
             className="rounded-[50%] h-[240px] object-cover"

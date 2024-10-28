@@ -3,9 +3,9 @@ import "assets/scss/blocks/_bg-img.scss";
 import ArrowRightIcon from "assets/icons/arrow-righ-icont";
 const OurCourses = () => {
   return (
-    <div className="container !my-20">
+    <div className="container !my-20 our-courses">
       <h2 className="text-[28px] mb-8 font-bold"> Biz orgatadigan kurslar</h2>
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-6 our-courses__wrapper">
         <section className="bg-img bg-img__program-course rounded-[44px]">
           <div className="pt-[145px] pl-8">
             <h3 className="mb-5 text-2xl font-bold text-white">Dasturlash</h3>
@@ -31,7 +31,7 @@ const OurCourses = () => {
           </div>
         </section>
       </div>
-      <div className="flex items-center gap-6 ">
+      <div className="flex items-center gap-6  our-courses__wrapper">
         <section className="bg-img bg-img__logistic-course rounded-[44px]">
           <div className="pt-[145px] pl-8">
             <h3 className="mb-5 text-2xl font-bold text-white">

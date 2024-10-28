@@ -1,4 +1,5 @@
 @import "../_variables";
+@import "../_mixin";
 .site-header {
   &__select {
     div {
@@ -8,6 +9,20 @@
     }
     span {
       color: $blue !important;
+    }
+  }
+
+  @include desktop-first(800px) {
+    &__menu {
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  @include desktop-first(500px) {
+    &__right {
+      display: none;
     }
   }
 }

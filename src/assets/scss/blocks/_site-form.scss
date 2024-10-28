@@ -1,0 +1,11 @@
+@import "../mixin";
+.site-form {
+  @include desktop-first(630px) {
+    &__head {
+      font-size: 18px;
+    }
+    &__img {
+      z-index: -1;
+    }
+  }
+}

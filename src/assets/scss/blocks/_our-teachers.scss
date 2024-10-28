@@ -1,0 +1,8 @@
+@import "../mixin";
+.our-teachers {
+  @include desktop-first(800px) {
+    &__wrapper {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+}
